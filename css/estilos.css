@@ -1,0 +1,220 @@
+/* 
+	Colores corporativos
+
+	- azul: #004190
+	- rojo: #e42c37
+	- gris: #9c9d9f
+	- beige: #d1945f
+
+*/
+
+
+/* Estilos generales */
+body
+{
+	font-family: Verdana;
+	font-size: 0.9em;
+}
+
+/* Estilos específicos */
+#contenido
+{
+	margin: 1em;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+#contenido h1
+{
+	color: #004190;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+#contenido a
+{
+	color: #004190;
+	text-decoration: none;
+}
+
+#contenido a:hover
+{
+	color: #E42C37;
+}
+
+#contenido #cuerpo
+{
+	padding-bottom: 10px;
+}
+
+#cabecera
+{
+	border-bottom: 1px solid #004190;
+	font-size: 2em;
+	padding-bottom: 10px;
+}
+
+#izquierda
+{
+	border-right: 1px solid #004190;
+	float: left;
+	padding-right: 20px;
+}
+
+#izquierda li
+{
+	list-style-image: url(/images/bobinaRoja.jpg);
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+
+#izquierda li:hover
+{
+	list-style-image: url(/images/bobinaAzul.jpg);
+	list-style-type: none;
+}
+
+
+div .derecha
+{
+	float: right;
+}
+
+#contenido #izquierda #menu li.seleccionado
+{
+	border: 1px solid #9c9d9f;
+	list-style-image: url(/images/bobinaAzul.jpg);
+}
+
+#contenido #izquierda #menu li.seleccionado a
+{
+	color: #e42c37;
+}
+
+#cuerpo
+{
+	overflow: hidden;
+	padding-left: 20px;
+}
+#pie
+{
+	border-top: 1px solid #004190;
+	font-size: 0.8em;
+	padding-top: 5px;
+}
+
+#pie .izquierda
+{
+	float: left;
+}
+
+#pie .derecha
+{
+	float: right;
+}
+
+.centrado
+{
+	text-align: center;
+}
+
+.textoRojo
+{
+	color: Red;
+}
+
+/* Imágenes */
+img
+{
+	border: medium none;
+}
+
+/* Tablas */
+table.tabla1
+{
+	width: 80%;
+}
+
+table.tabla1 td
+{
+	border: 1px solid #9c9d9f;
+	padding-left: 25px;
+	text-align: left;
+}
+
+table.tabla1 th
+{
+	background-color: #799dc7;
+	border: 1px solid #004190;
+	padding-left: 5px;
+	text-align: left;
+}
+
+table.tabla1 img.adjunto
+{
+	margin: 3px;
+	vertical-align: middle;
+}
+
+table.tabla1 .txtderecha
+{
+	text-align: right;
+}
+
+tr.trimpar
+{
+	background-color: #DCDCDC;
+	border: 1px solid #9c9d9f;
+}
+
+table.tabla1 .txtcentro
+{
+	text-align: center;
+	padding-left: 0px;
+}
+
+caption  
+{
+	font-weight:bold; 
+	text-align:left; 
+	padding:0 0 0.4em 0; }
+
+
+/* Limpiador de capas */
+.limpiador
+{
+	clear: both;
+}
+
+/* Formularios */
+.formulario fieldset  
+{
+	border: #9c9d9f solid 1px; 
+	margin: 5px; 
+	padding: 5px;  
+}
+
+.formulario legend  
+{
+	font-weight:bold; 
+	color:#000000; 
+	padding:0 5px 0 5px;
+} 
+
+.formulario input, textarea   
+{
+	margin: 5px 5px 0 0;
+}
+
+.formulario label 
+{
+	padding:0 0 0 5px;
+}
+.formulario .campo  
+{
+	width:95%; 
+	float: left; 
+	margin: 5px 0 5px 0;
+}
+
+

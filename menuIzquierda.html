@@ -1,0 +1,12 @@
+<div id="izquierda">
+	<div id="menu">
+		<ul>
+			<li <?php if($_GET['opcion'] == null){echo ' class="seleccionado"';}?> ><a href="/index.php">Inicio</a></li>
+			<li <?php if($_GET['opcion'] == 'quienes'){echo ' class="seleccionado"';}?> ><a href="/contenido/quienes/quienes.php?opcion=quienes">Quiénes somos</a></li>
+			<li <?php if($_GET['opcion'] == 'donde'){echo ' class="seleccionado"';}?> ><a href="/contenido/donde/donde.php?opcion=donde">Dónde estamos</a></li>
+			<li <?php if($_GET['opcion'] == 'servicios'){echo ' class="seleccionado"';}?> ><a href="/contenido/servicios/servicios.php?opcion=servicios">Servicios y tarifas</a></li>
+			<!--<li <?php if($_GET['opcion'] == 'galeria'){echo ' class="seleccionado"';}?> ><a href="/contenido/galeria/galeria.php?opcion=galeria">Galería de fotos</a></li>-->
+			<li <?php if($_GET['opcion'] == 'contacto'){echo ' class="seleccionado"';}?> ><a href="/contenido/contacto/contacto.php?opcion=contacto&amp;paso=1">Contacto</a></li>
+		</ul>
+	</div>
+</div>

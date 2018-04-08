@@ -1,0 +1,31 @@
+﻿<div class="formulario">
+  <form name="formularioContacto" method="post" action="contacto.php?opcion=contacto&paso=2">
+    <fieldset>
+      <legend>Formulario de contacto</legend>
+
+      <div class="campo">
+        <label for="nombre" accesskey="n">Nombre(*):</label><br />
+        <input type="text" id="nombre" name="nombre" size="65" />
+      </div>
+
+      <div class="campo">
+        <label for="correo" accesskey="c">Correo electrónico(*):</label><br />
+        <input type="text" id="correo" name="correo" size="65" />
+      </div>
+
+      <div class="campo">
+        <label for="mensaje" accesskey="m">Mensaje(*):</label><br />
+        <textarea id="mensaje" name="mensaje" rows="5" cols="65"></textarea>
+      </div>
+
+      <div class="campo">
+        (*) Campos obligatorios
+      </div>
+
+      <div class="campo centrado">
+        <input type="submit" accesskey="e" value="Enviar" />
+      </div>
+      
+    </fieldset>
+  </form>
+</div>
